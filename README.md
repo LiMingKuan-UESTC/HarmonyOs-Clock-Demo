@@ -24,12 +24,13 @@
 - 启用后，在设定时间触发系统通知提醒（已申请权限并发布通知）
 
 ## 📷 效果展示
-
-![通知权限申请](pngs/show_check.png)
-![首页时钟](pngs/show_index.png)
-![提醒设置页](pngs/show_alarmset.png)
-![触发提醒](pngs/show_alarm.png)
-![时间修改页](pngs/show_timepicker.png)
+<div align="center">
+  <img src="pngs/show_check.png" width="160" />
+  <img src="pngs/show_index.png" width="160" />
+  <img src="pngs/show_alarmset.png" width="160" />
+  <img src="pngs/show_alarm.png" width="160" />
+  <img src="pngs/show_timepicker.png" width="160" />
+</div>
 
 ## 🛠 运行与开发
 
