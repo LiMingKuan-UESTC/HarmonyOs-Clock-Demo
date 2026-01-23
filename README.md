@@ -25,12 +25,13 @@
 
 ## 📷 效果展示
 <div align="center">
-  <img src="pngs/show_check.png" width="160" />
-  <img src="pngs/show_index.png" width="160" />
-  <img src="pngs/show_alarmset.png" width="160" />
-  <img src="pngs/show_alarm.png" width="160" />
-  <img src="pngs/show_timepicker.png" width="160" />
+  <img src="pngs/show_check.png" height="140" style="object-fit: cover;" />
+  <img src="pngs/show_index.png" height="140" style="object-fit: cover;" />
+  <img src="pngs/show_alarmset.png" height="140" style="object-fit: cover;" />
+  <img src="pngs/show_alarm.png" height="140" style="object-fit: cover;" />
+  <img src="pngs/show_timepicker.png" height="140" style="object-fit: cover;" />
 </div>
+> 图片依次展示了`通知权限申请`、`首页时钟`、`提醒设置页`、`触发提醒`、`时间修改页`的实际运行结果。
 
 ## 🛠 运行与开发
 
