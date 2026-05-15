@@ -1,15 +1,30 @@
-# 饭点提醒 Clock-Demo
+<div align="center">
+  <h1>🕒 饭点提醒 (HarmonyOS Clock-Demo)</h1>
+  <p>一个基于 HarmonyOS + ArkTS 的轻量化翻页时钟与饭点提醒应用</p>
 
-这是一个基于 **HarmonyOS + ArkTS** 的练手项目，演示一个简易的饭点提醒应用，实现了翻页时钟展示与闹钟提醒功能。后续计划持续完善功能和体验。
+  <p>
+    <a href="https://github.com/LiMingKuan-UESTC/HarmonyOs-Clock-Demo/stargazers"><img src="https://img.shields.io/github/stars/LiMingKuan-UESTC/HarmonyOs-Clock-Demo?style=flat-square" alt="Stars"></a>
+    <img src="https://img.shields.io/badge/Platform-HarmonyOS-blue.svg?style=flat-square" alt="Platform">
+    <img src="https://img.shields.io/badge/Language-ArkTS-brightgreen.svg?style=flat-square" alt="Language">
+    <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square" alt="License">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+  </p>
+</div>
 
-## 🚀 项目简介
+<br/>
 
-本项目旨在为大学生提供一个轻量化、贴心的饭点提醒工具。  
-📌大学生因为课程、实验等原因常常错过饭点，而按时就餐对于健康很重要。
+## 📖 项目简介
 
-本应用展示当前时间（翻页交互风格），并允许用户设置早餐、午餐、晚餐三种提醒，当到达对应时间时会发送系统通知提醒。
+本项目旨在为大学生提供一个轻量化、贴心的饭点提醒工具。<br>
 
-## 📌 功能清单
+大学生因为课程、实验等原因常常错过饭点，而按时就餐对于健康至关重要。本项目旨在提供一个轻量化、贴心的提醒工具。应用首屏提供高颜值的**翻页时钟**展示当前时间，并允许用户一键设置早餐、午餐、晚餐的系统级通知提醒。
+
+## ✨ 核心功能
+
+- ⏱️ **翻页时钟**：实时动态展示当前时间，提供优秀的视觉交互体验。
+- 🔔 **三餐提醒**：预置早/午/晚三个饭点，支持点击时间区域自定义修改提醒时间。
+- ⚙️ **系统通知接入**：通过系统底层的通知权限申请与本地通知分发，确保提醒准时到达。
+- 🎛️ **状态管理**：采用卡片式布局与状态开关控制，直观易用。
 
 ### ✅ 首页
 
@@ -23,22 +38,25 @@
 - 右侧显示开关，可启用 / 关闭提醒
 - 启用后，在设定时间触发系统通知提醒（已申请权限并发布通知）
 
+
 ## 📷 效果展示
+<br>
 <div align="center">
-  <img src="pngs/show_check.png" height="140" style="object-fit: cover;" />
-  <img src="pngs/show_index.png" height="140" style="object-fit: cover;" />
-  <img src="pngs/show_alarmset.png" height="140" style="object-fit: cover;" />
-  <img src="pngs/show_alarm.png" height="140" style="object-fit: cover;" />
-  <img src="pngs/show_timepicker.png" height="140" style="object-fit: cover;" />
+  <img src="pngs/show_check.png" height="200" style="object-fit: cover;" />
+  <img src="pngs/show_index.png" height="200" style="object-fit: cover;" />
+  <img src="pngs/show_alarmset.png" height="200" style="object-fit: cover;" />
+  <img src="pngs/show_alarm.png" height="200" style="object-fit: cover;" />
+  <img src="pngs/show_timepicker.png" height="200" style="object-fit: cover;" />
 </div>
-> 图片依次展示了`通知权限申请`、`首页时钟`、`提醒设置页`、`触发提醒`、`时间修改页`的实际运行结果。
+<br>
+- 注：上方图片依次展示了 通知权限申请、首页时钟、提醒设置页、触发提醒、时间修改页 的实际运行结果。
 
 ## 🛠 运行与开发
 
 1. 克隆仓库到本地
 
    ```bash
-   git clone https://github.com/DEMON-coding/HarmonyOs-Clock-Demo.git
+   git clone https://github.com/LiMingKuan-UESTC/HarmonyOs-Clock-Demo.git
    ```
 
 2. 在 **DevEco Studio** 中打开项目
@@ -63,21 +81,33 @@
 
 * **首页时钟展示**：通过状态变量与定时器实时更新 UI，提高可视交互感
 * **提醒逻辑**：使用通知权限申请 + 本地通知，确保提醒到达即弹出系统提醒
-* 提醒设置页采用卡片布局，结合开关控制，提升交互体验
+* **交互设计**：提醒设置页采用卡片布局，结合开关控制，提升交互体验
 
-## 📅 未来规划
+## 📂 核心目录结构
 
-以下为未来计划开发内容：
+```text
+HarmonyOs-Clock-Demo/
+├── entry/src/main/ets/
+│   ├── entryability/         # 应用入口与生命周期管理
+│   ├── pages/                # UI 页面 (首页时钟、设置页等)
+│   ├── components/           # 自定义 UI 组件 (翻页时钟组件等)
+│   └── utils/                # 工具类 (系统通知封装、时间处理等)
+├── AppScope/                 # 全局配置与资源
+└── build-profile.json5       # 构建配置
+```
 
-* 💤 **贪睡/延迟提醒功能**
-* ➕ **自定义提醒项**，不再固定三餐
-* 🕒 **重复周期设置**（如每天/工作日/周末）
-* 📌 **持久化存储提醒数据**（DataStore / Preferences）
-* 🎨 美化 UI 样式 / 支持深色模式
-* 📱 多终端适配（平板、大屏等）
+## 📅 未来规划 to-do list
+
+我们计划在未来的版本中逐步完善以下功能：
+
+- [ ] 💤 **贪睡模式**：支持延迟提醒功能。
+- [ ] ➕ **自定义提醒项**：不再局限于固定三餐，支持自由添加。
+- [ ] 🕒 **循环周期设置**：支持每天/工作日/法定节假日等灵活排期。
+- [ ] 💾 **数据持久化**：接入 DataStore/Preferences，保证重启后数据不丢失。
+- [ ] 🎨 **深色模式适配**：支持系统级的 Dark Mode。
 
 ## 📜 授权许可
 
-本项目采用 **Apache-2.0 License** 开源协议。
+本项目基于 Apache License 2.0 协议开源，详情请参阅 LICENSE 文件。
 
-欢迎 Star ⭐ 和 Fork 🧑‍💻！
+🤝 欢迎 Star ⭐ 和 Fork 🧑‍💻！
