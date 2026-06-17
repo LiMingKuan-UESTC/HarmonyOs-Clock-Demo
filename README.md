@@ -106,8 +106,18 @@ HarmonyOs-Clock-Demo/
 - [ ] 💾 **数据持久化**：接入 DataStore/Preferences，保证重启后数据不丢失。
 - [ ] 🎨 **深色模式适配**：支持系统级的 Dark Mode。
 
-## 📜 授权许可
+## 📜 免责声明与使用说明
 
-本项目基于 Apache License 2.0 协议开源，详情请参阅 LICENSE 文件。
+本项目由 **LiMingKuan-UESTC** 制作，仅供交流、学习和展示使用。
+
+作者不保证本项目的可靠性、稳定性、完整性或适用性。因使用、修改、分发或参考本项目所产生的任何问题、损失或风险，均由使用者自行承担。
+
+本项目基于 Apache License 2.0 开源。使用、修改、分发或引用本项目及其源代码时，请保留原始版权声明、许可证声明，并明确注明原项目出处与作者信息。
+
+- 原项目：HarmonyOs-Clock-Demo
+- 作者：LiMingKuan-UESTC
+- 仓库地址：https://github.com/LiMingKuan-UESTC/HarmonyOs-Clock-Demo
+
+本项目基于 Apache License 2.0 协议，详情请参阅 LICENSE 文件。
 
 🤝 欢迎 Star ⭐ 和 Fork 🧑‍💻！
