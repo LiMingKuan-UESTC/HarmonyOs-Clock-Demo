@@ -2,7 +2,7 @@
 //
 // 原项目：HarmonyOs-Clock-Demo
 // 作者：LiMingKuan-UESTC
-// 仓库地址：https://github.com/LiMingKuan-UESTC/Clustering-Matlab-Demo
+// 仓库地址：https://github.com/LiMingKuan-UESTC/HarmonyOs-Clock-Demo
 // ReminderService.ets
 
 import { publishSimpleNotification } from './NotificationUtil';  // 引入发布通知的方法
