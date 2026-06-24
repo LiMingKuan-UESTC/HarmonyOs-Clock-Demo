@@ -1,4 +1,10 @@
+// Copyright 2026 LI MingKuan
+//
+// 原项目：HarmonyOs-Clock-Demo
+// 作者：LiMingKuan-UESTC
+// 仓库地址：https://github.com/LiMingKuan-UESTC/Clustering-Matlab-Demo
 // ReminderSettings.ets
+
 import promptAction from '@ohos.promptAction'
 import router from '@ohos.router'
 import { common } from '@kit.AbilityKit'
