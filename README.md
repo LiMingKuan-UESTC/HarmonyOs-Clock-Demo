@@ -7,7 +7,6 @@
     <img src="https://img.shields.io/badge/Platform-HarmonyOS-blue.svg?style=flat-square" alt="Platform">
     <img src="https://img.shields.io/badge/Language-ArkTS-brightgreen.svg?style=flat-square" alt="Language">
     <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square" alt="License">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </p>
 </div>
 
@@ -106,9 +105,7 @@ HarmonyOs-Clock-Demo/
 - [ ] 💾 **数据持久化**：接入 DataStore/Preferences，保证重启后数据不丢失。
 - [ ] 🎨 **深色模式适配**：支持系统级的 Dark Mode。
 
-## 📜 免责声明与使用说明
-
-作者不保证本项目的可靠性、稳定性、完整性或适用性。因使用、修改、分发或参考本项目所产生的任何问题、损失或风险，均由使用者自行承担。
+## 📜 LICENSE
 
 本项目基于 Apache License 2.0 开源。
 
